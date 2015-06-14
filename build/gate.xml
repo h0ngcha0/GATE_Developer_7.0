@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!-- gate.xml -->
+<!-- $Id: gate.xml 7452 2006-06-15 14:45:17Z ian_roberts $ -->
+
+<!-- Sheffield GATE configuration file -->
+
+<!-- MAKE CHANGES TO THE ONE IN gate/doc/internal, THEN COPY TO
+     y:\gate.xml and /share/nlp/projects/gate/gate.xml -->
+
+<GATE>
+
+<DBCONFIG
+  url="jdbc:oracle:thin:GATEUSER/gate@rainow.dcs.shef.ac.uk:1521:gate02"
+  url-test="jdbc:postgresql://redmires.dcs.shef.ac.uk:5432/gatetest?user=gateuser&amp;password=gateuser"  
+/>
+<!--
+  url-test="jdbc:postgresql://mamtor.dcs.shef.ac.uk:5432/gate01?user=gateuser&amp;password=gate"
+  url-test1="jdbc:oracle:thin:GATEUSER/gate@rainow.dcs.shef.ac.uk:1521:gate101"
+  url="jdbc:oracle:thin:GATEUSER/gate2@grindleford.dcs.shef.ac.uk:1521:gatedb2"
+  url1="jdbc:oracle:thin:GATEUSER/gate@rainow.dcs.shef.ac.uk:1521:gate101"
+  url2="jdbc:oracle:oci8:GATEUSER/gate2@gatedb2.dcs.shef.ac.uk"
+  url3="jdbc:oracle:oci8:GATEUSER/gate@maindb.dcs.shef.ac.uk"
+  url4="jdbc:oracle:oci8:GATEUSER/gate2@gatedb2-ipc.dcs.shef.ac.uk"
+-->
+
+<!--DBCONFIG url="jdbc:oracle:oci8:GATEUSER/gate2@gatedb.dcs.shef.ac.uk"/-->
+<!--DBCONFIG url="jdbc:oracle:oci8:GATEUSER/gate2@grindleford.dcs.shef.ac.uk:1521:GateDB2"/-->
+
+</GATE>

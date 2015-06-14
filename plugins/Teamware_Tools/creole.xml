@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<CREOLE-DIRECTORY>
+  <JAR SCAN="true">teamware_tools.jar</JAR>
+  <!-- not an ideal way but going with this option until we have
+       dependency of plugins feature implemented -->
+  <JAR>../Tools/tools.jar</JAR>
+</CREOLE-DIRECTORY>
+

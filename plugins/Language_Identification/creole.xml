@@ -1,0 +1,6 @@
+<CREOLE-DIRECTORY>
+	<CREOLE>
+		<JAR SCAN="true">languageID.jar</JAR>
+		<JAR>lib/textcat-cvs-20110522.jar</JAR>
+	</CREOLE>
+</CREOLE-DIRECTORY>

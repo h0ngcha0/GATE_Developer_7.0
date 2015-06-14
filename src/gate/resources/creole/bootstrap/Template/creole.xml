@@ -1,0 +1,13 @@
+<!-- creole.xml ___RESOURCE___ -->
+<!--  ___AUTHOR___, ___DATE___ -->
+<!-- $Id: creole.xml 9992 2008-10-31 16:53:29Z ian_roberts $ -->
+
+<!--
+This file just references the JAR file that contains the compiled resource.
+Configuration is contained in the @CreoleResource annotation on 
+___PACKAGE___.___CLASSNAME___.
+-->
+
+<CREOLE-DIRECTORY>
+  <JAR SCAN="true">Template.jar</JAR>
+</CREOLE-DIRECTORY>

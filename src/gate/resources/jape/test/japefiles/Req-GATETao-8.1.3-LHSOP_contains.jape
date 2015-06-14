@@ -1,0 +1,7 @@
+Phase: Test
+Options: control = brill
+
+Rule:OpContains
+({Location contains Location}):bind 
+--> 
+:bind.SomeAnnotation = {rule="OpContains"}
